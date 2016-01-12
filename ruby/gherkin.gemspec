@@ -3,8 +3,8 @@ Gem::Specification.new do |s|
   s.name        = 'gherkin'
   s.version     = '3.2.0'
   s.authors     = ["Gáspár Nagy", "Aslak Hellesøy", "Steve Tooke"]
-  s.description = 'Gherkin parser'
-  s.summary     = "gherkin-#{s.version}"
+  s.summary     = 'Gherkin language parser'
+  s.description = 'Implementation of the Gherkin language parser. Used by Cucumber to parse *.feature files.'
   s.email       = 'cukes@googlegroups.com'
   s.homepage    = "https://github.com/cucumber/gherkin"
   s.platform    = Gem::Platform::RUBY
